@@ -26,7 +26,7 @@
 #pragma mark——建立蓝牙连接
 - (IBAction)connect:(UIButton *)sender
 {
-    //1.创建
+    //1.创建同行选择器
     GKPeerPickerController *peerctl=[[GKPeerPickerController alloc]init];
     //2.
     peerctl.delegate=self;

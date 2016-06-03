@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44DC1FF91D011C6600572E23 /* coreBluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DC1FF81D011C6600572E23 /* coreBluetoothViewController.m */; };
 		44E243471CFFE5FD0083B9C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E243461CFFE5FD0083B9C9 /* main.m */; };
 		44E2434A1CFFE5FD0083B9C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E243491CFFE5FD0083B9C9 /* AppDelegate.m */; };
 		44E2434D1CFFE5FD0083B9C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2434C1CFFE5FD0083B9C9 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44DC1FF71D011C6600572E23 /* coreBluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coreBluetoothViewController.h; sourceTree = "<group>"; };
+		44DC1FF81D011C6600572E23 /* coreBluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coreBluetoothViewController.m; sourceTree = "<group>"; };
 		44E243421CFFE5FD0083B9C9 /* blueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E243461CFFE5FD0083B9C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44E243481CFFE5FD0083B9C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44DC1FFA1D011C7400572E23 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				44DC1FF71D011C6600572E23 /* coreBluetoothViewController.h */,
+				44DC1FF81D011C6600572E23 /* coreBluetoothViewController.m */,
+			);
+			name = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+		44DC1FFB1D011C8C00572E23 /* Gamekit */ = {
+			isa = PBXGroup;
+			children = (
+				44E2434B1CFFE5FD0083B9C9 /* ViewController.h */,
+				44E2434C1CFFE5FD0083B9C9 /* ViewController.m */,
+			);
+			name = Gamekit;
+			sourceTree = "<group>";
+		};
 		44E243391CFFE5FD0083B9C9 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +122,10 @@
 		44E243441CFFE5FD0083B9C9 /* blueTooth */ = {
 			isa = PBXGroup;
 			children = (
+				44DC1FFB1D011C8C00572E23 /* Gamekit */,
+				44DC1FFA1D011C7400572E23 /* CoreBluetooth */,
 				44E243481CFFE5FD0083B9C9 /* AppDelegate.h */,
 				44E243491CFFE5FD0083B9C9 /* AppDelegate.m */,
-				44E2434B1CFFE5FD0083B9C9 /* ViewController.h */,
-				44E2434C1CFFE5FD0083B9C9 /* ViewController.m */,
 				44E2434E1CFFE5FD0083B9C9 /* Main.storyboard */,
 				44E243511CFFE5FD0083B9C9 /* Assets.xcassets */,
 				44E243531CFFE5FD0083B9C9 /* LaunchScreen.storyboard */,
@@ -275,6 +296,7 @@
 			files = (
 				44E2434D1CFFE5FD0083B9C9 /* ViewController.m in Sources */,
 				44E2434A1CFFE5FD0083B9C9 /* AppDelegate.m in Sources */,
+				44DC1FF91D011C6600572E23 /* coreBluetoothViewController.m in Sources */,
 				44E243471CFFE5FD0083B9C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +523,7 @@
 				44E243711CFFE5FE0083B9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44E243721CFFE5FE0083B9C9 /* Build configuration list for PBXNativeTarget "blueToothTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +532,7 @@
 				44E243741CFFE5FE0083B9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44E243751CFFE5FE0083B9C9 /* Build configuration list for PBXNativeTarget "blueToothUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +541,7 @@
 				44E243771CFFE5FE0083B9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
